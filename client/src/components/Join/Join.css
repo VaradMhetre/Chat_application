@@ -1,0 +1,90 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+html, body {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  height: 100vh;
+}
+
+* {
+ 
+  box-sizing: border-box;
+}
+
+.joinOuterContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  align-items: center;
+  background-color: #040313;
+}
+
+.joinInnerContainer {
+  width: 20%;
+}
+
+
+
+
+.heading {
+  color: rgb(255, 255, 255);
+  font-size: 2.5em;
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+}
+
+.inputbox2{
+
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid rgb(89, 247, 115);
+}
+
+
+.button {
+    color: #fff !important;
+    text-transform: uppercase;
+     background: none;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border-color: rgb(208, 211, 218);
+    width: 100%;
+}
+.inputbox2 i{
+  width: 26px;
+  float: left;
+}
+.inputbox2 input{
+  border: none;
+  outline: none;
+  background: none;
+  color: #fff;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .joinOuterContainer {
+    height: 100%;
+  }
+
+  .joinInnerContainer {
+    width: 90%;
+  }
+
+
+}
+
+button:focus {
+  outline: 0;
+}

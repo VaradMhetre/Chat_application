@@ -1,0 +1,6 @@
+.messages {
+  padding: 5% 0;
+  overflow: auto;
+  flex: auto;
+  background-image: url(./chat.jpg);
+}
